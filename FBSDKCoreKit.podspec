@@ -72,7 +72,6 @@ Pod::Spec.new do |s|
                              'FBSDKCoreKit/FBSDKCoreKit/GraphAPI/*.h'
     ss.private_header_files = 'FBSDKCoreKit/FBSDKCoreKit/Internal/**/*.h',
                               'FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/**/*.h'
-    ss.resources = 'FacebookSDKStrings.bundle'
     ss.library = 'c++', 'stdc++'
   end
 end
